@@ -22,8 +22,24 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/noteanimation" />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loding3"
+        android:layout_width="329dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="200dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457"
+        app:lottie_autoPlay="true"
+        android:visibility="gone"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loadinganimation" />
+
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/cardView1"
         android:layout_width="match_parent"
         android:layout_height="550sp"
         app:cardCornerRadius="30dp"
@@ -125,7 +141,7 @@
             android:id="@+id/regpageopen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="247dp"
+            android:layout_marginLeft="265dp"
             android:layout_marginTop="420dp"
             android:text="Join now"
             android:textColor="@color/color"

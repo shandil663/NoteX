@@ -22,6 +22,22 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/signup" />
 
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loding1"
+        android:layout_width="333dp"
+        android:layout_height="259dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457"
+        app:lottie_autoPlay="true"
+        android:visibility="gone"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loadinganimation" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
@@ -52,7 +68,7 @@
             android:textStyle="normal" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/email"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -68,7 +84,7 @@
             android:textStyle="normal" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/pass"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -108,7 +124,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/Signin"
+            android:id="@+id/SignUp"
             android:layout_width="332dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -128,12 +144,12 @@
             android:textColor="@android:color/darker_gray" />
 
         <TextView
-            android:id="@+id/regpageopen"
+            android:id="@+id/SignInpage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="257dp"
+            android:layout_marginLeft="270dp"
             android:layout_marginTop="420dp"
-            android:text="Join now"
+            android:text="Sign In"
             android:textColor="@color/color"
             android:textStyle="bold" />
 

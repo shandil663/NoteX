@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -34,10 +35,13 @@ android {
 dependencies {
 
     implementation(libs.appcompat)
-    implementation ("com.airbnb.android:lottie:6.3.0")
+    implementation ("com.airbnb.android:lottie:6.4.0")
+    implementation ("com.firebaseui:firebase-ui-database:8.0.2")
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
